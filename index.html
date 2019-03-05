@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
     <body>
-        <h1>With us you will get your dreams store!</h1>
+        <h1 id="heading">With us you will get your dreams store!</h1>
         <nav class="nav-bar">
-            <a href="#about">About</a>
-            <a href="#team">Team</a>
-            <a href="#contact">Contact us!</a>
+      <div id="about-button"><a href="#about" >About</a></div>
+      <div id="team-button"><a href="#team" >Team</a></div>
+    <div id="contact-button"><a href="#contact" id="contact-button">Contact us!</a></div>
         </nav>
-        <div>
+        <div id="about-in">
             <h5 id="about">About</h5>
             <p>
                     Contrary to popular belief, Lorem Ipsum is not
                      simply random text. It has roots in a piece of
-                      classical Latin literature from 45 BC, making 
+                      classical Latin literature from 45 BC, making
                       it over 2000 years old. Richard McClintock,
                        a Latin professor at Hampden-Sydney College
                     in Virginia, looked up one of the more obscure
@@ -20,22 +20,22 @@
             </p>
         </div>
 
-        <div>
-            <h5>---Team---</h5>
-            <container>
-                <h3>Faris</h3>
+        <div id="team-in">
+            <h5 id="team">---Team---</h5>
+            <container id="container-team">
+                <h3 id="team-mates">Faris</h3>
                 <img src="https://www.macleans.ca/wp-content/uploads/2014/03/Wikipedia-logo_ka.png" height="42" width="42">
             </container>
-            <container>
-                <h3>Obaydah</h3>
+            <container id="container-team">
+                <h3 id="team-mates">Obaydah</h3>
                 <img src="https://pbs.twimg.com/profile_images/1018552942670966784/0Zflj6Y__400x400.jpg" height="42" width="42">
             </container>
         </div>
-        <form>
-            <input type="text" name="fullName" placeholder="Your Name goes here!">
-            <input type="text" name="email" placeholder="Make sure to enter a vaild one">
-            <textarea placeholder="Describe yourself here..."></textarea>
-            <input type="button" value="Subimt">
+        <form id="form">
+            <input id="input-name" type="text" name="fullName" placeholder="Your Name goes here!">
+            <input id="input-email" type="text" name="email" placeholder="Make sure to enter a vaild one">
+            <textarea id="input-textarea" placeholder="Describe yourself here..."></textarea>
+            <input id="input-submit" type="button" value="Subimt">
         </form>
     </body>
 </html>
