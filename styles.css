@@ -1,11 +1,84 @@
-#aboutButton{
-margin: 50px 10px 10px 10px;
-border-color: black
+body {
+    margin: 0;
 }
-#team-button{
-  margin: 50px 80px 80px 80px;
-}
-#contact-button{
-  margin: 50px 10px 10px 10px;
 
+.nav-bar {
+    background-color: darkcyan;
+}
+
+#nav-items {
+    display: inline-flex;
+    float: right;
+}
+
+a{
+    color: black;
+    padding: 18px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+a:hover {
+    background-color: seagreen;
+    color: white;
+}
+
+h1 {
+    margin-top:0px;
+    padding: 180px 240px 240px 240px;
+    background: linear-gradient(to right, #e66465 0%, #9198e5 100%);
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 56px;
+    margin-bottom: 0px;
+}
+
+#block {
+    color: black;
+    display: block;
+    font-family: monospace
+}
+
+.about-div {
+    margin-top: 0;
+    padding: 180px 240px 240px 240px;
+    background: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h5{
+    font-size: 56px;
+    margin-top: 0px;
+}
+
+p {
+    font-size: 3em;
+    font-family: monospace;
+}
+
+#team {
+    margin-top: 0;
+    padding: 180px 240px 240px 240px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+   background: linear-gradient(to top, #f83600 0%, #f9d423 100%);
+}
+
+container {
+    display: inline-block;
+}
+
+#container-team-1 {
+    float: left
+        
+}
+
+#container-team-2{
+    float: right;
 }
