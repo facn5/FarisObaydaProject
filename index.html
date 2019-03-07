@@ -1,88 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-       <title>WEB DEV</title>
-       <link rel="stylesheet" type="text/css" href="styles.css">
-   </head>
-    <body>
-        <nav class="nav-bar">
-            <a href="#">{ Home}</a>
-         <div id="nav-items">
-             <a href="#about">About</a>
-             <a href="#team">Team</a>
-             <a href="#contact">Contact us!</a>
-         </div>
-        </nav>
-        <div id="heading">
-            <h1 id="heading">We are here to build your <span id="block">
-                stuning : blah : blah
-                </span>
-             web store</h1>
-        </div>
-        <div id="about" class="about-div">
-            <h5>About</h5>
+
+<head>
+  <title>WEB DEV</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <nav class="nav-bar">
+    <a class="a-nav" href="#">{ Home}</a>
+    <div id="nav-items">
+      <a class="a-nav" href="#about">About</a>
+      <a class="a-nav" href="#team">Team</a>
+      <a class="a-nav" href="#contact">Contact us!</a>
+    </div>
+  </nav>
+  <div id="heading">
+
+    <h1 id="heading">You have been chosen to choose us !!! <span id="block">
+        Shopping more comfort
+      </span>
+      web store</h1>
+  </div>
+  <div class="about-div" id="about">
+    <h5>About</h5>
+    <p id=about-p>
+    We sepcialize in developing shopping websites
+    </p>
+  </div>
+  <div class="team" id="team">
+    <h5>Team Members</h5>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img class="pro-img" src="https://psddaddy.com/wp-content/uploads/2017/05/free-character-illustration.jpg" alt="Obaydah">
+          <div class="container">
+            <h2>Obaydah Saad</h2>
+            <p class="title">UI/UX Designer</p>
+            <p id="container-p">High skilled designer. <br>check dribbble for more info!</p>
             <p>
-                Contrary to popular belief, Lorem Ipsum is not
-                simply random text. It has roots in a piece of
-                classical Latin literature from 45 BC, making
-                it over 2000 years old. Richard McClintock,
-                a Latin professor at Hampden-Sydney College
-                in Virginia, looked up one of the more obscure
-                Latin words, consectetur, from a Lorem Ipsum passage.
+               <a class="a-img" href="https://www.dribbble.com">
+                   <img class="social-img" src="assets/dribbble.png">
+               </a>
+               <a class="a-img" href="https://www.facebook.com">
+                   <img class="social-img" src="assets/facebook.png">
+               </a>
+               <a class="a-img" href="https://www.linkedin.com">
+                   <img class="social-img" src="assets/linkedin.png">
+               </a>
             </p>
+          </div>
         </div>
-        <div id="team">
-            <h5>Team</h5>
-            <container id="container-team-1">
-                <h3 id="team-mates">Faris</h3>
-                <img src="https://www.macleans.ca/wp-content/uploads/2014/03/Wikipedia-logo_ka.png" height="42" width="42">
-            </container>
-            <container id="container-team-2">
-                <h3 id="team-mates">Obaydah</h3>
-                <img src="https://pbs.twimg.com/profile_images/1018552942670966784/0Zflj6Y__400x400.jpg" height="42" width="42">
-            </container>
+      </div>
+      <div class="column">
+        <div class="card">
+          <img class="pro-img" src="http://www.famoustypes.com/wp-content/uploads/2016/12/billgates-3-600x500.png" alt="Faris">
+          <div class="container">
+            <h2>Faris</h2>
+            <p class="title">Fullstack Developer</p>
+            <p id="container-p">JS ninja, Faris working as fullstack<br>check github!</p>
+            <p><a class="a-img" href="https://www.github.com">
+                   <img class="social-img" src="assets/github-logo.png">
+               </a>
+               <a class="a-img" href="https://www.facebook.com">
+                   <img class="social-img" src="assets/facebook.png">
+               </a>
+               <a class="a-img" href="https://www.linkedin.com">
+                   <img class="social-img" src="assets/linkedin.png">
+               </a></p>
+          </div>
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        
-        <form id="contact">
-            <input id="input-name" type="text" name="fullName" placeholder="Your Name goes here!">
-            <input id="input-email" type="text" name="email" placeholder="Make sure to enter a vaild one">
-            <textarea id="input-textarea" placeholder="Describe yourself here..."></textarea>
-            <input id="input-submit" type="button" value="Subimt">
-        </form>
-    </body>
+      </div>
+    </div>
+  </div>
+<div class="background">
+  <div id="main">
+    <div id="first">
+      <form>
+        <div><p>Contact us</p>
+            <h4>Please fill all entries.</h4></div>
+            <div>
+        <label>Name:</label>
+                <input placeholder="Your Name" type="text" required></div>
+                <div>
+        <label>Email:</label>
+                    <input placeholder="Your Email" type="email" required></div>
+                    <div>
+                        <label>Message:</label></div>
+                        <div>
+                        <textarea class="text" placeholder="Message" required></textarea></div>
+        <input type="submit" value="Send">
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+
 </html>
